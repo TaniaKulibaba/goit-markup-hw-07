@@ -1,0 +1,38 @@
+.section-footer {
+  width: 1600px;
+  height: 252px;
+  margin: auto;
+  background-color: #2f303a;
+
+  & .address {
+    margin-top: 20px;
+  }
+}
+
+.footer {
+  display: flex;
+  padding: 60px 0;
+  text-align: left;
+}
+
+.contact-list {
+  &-item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
+  &-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  &-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: $light-text-color;
+  }
+}

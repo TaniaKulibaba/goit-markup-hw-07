@@ -1,0 +1,40 @@
+.clients {
+  width: 1600px;
+  height: 370px;
+  margin: auto;
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+
+    &-link:hover {
+      border: 1px solid $accent-color;
+    }
+
+    &-item:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    &-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 170px;
+      height: 90px;
+      border: 1px solid #afb1b8;
+      box-sizing: border-box;
+      border-radius: 4px;
+      transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+}
+
+.clients-list-svg {
+  height: 47px;
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .clients-list-link:hover & {
+    fill: $accent-color;
+  }
+}

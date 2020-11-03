@@ -1,0 +1,24 @@
+.logo {
+  &-dark {
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: $main-text-color;
+    margin-right: 93px;
+  }
+
+  &-light {
+    font-family: $secondary-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: $direction-color;
+  }
+}
+
+.accent {
+  color: $accent-color;
+}

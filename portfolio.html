@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/portfolio.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <nav class="navigation">
+                <a class="logo-dark link" href="./index.html" aria-label="логотип Веб-студии"><span
+                        class="accent">Web</span>Studio</a>
+                <ul class="navigation-list list">
+                    <li class="navigation-list-item">
+                        <a class="navigation-list-link link" href="./index.html">Студия</a></li>
+                    <li class="navigation-list-item">
+                        <a class="navigation-list-link link-current link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="navigation-list-item">
+                        <a class="navigation-list-link link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+        
+            <ul class="header-address list">
+                <li class="header-address-item">
+                    <address class="address">
+                        <a class="header-mail-link link" href="mailto:info@devstudio.com">
+                            <svg class="envelope-svg">
+                                <use href="./images/sprite.svg#icon-envelope"></use>
+                            </svg>
+                            info@devstudio.com</a></address>
+                </li>
+                <li class="header-address-item">
+                    <address class="address">
+                        <a class="header-tel-link link" href="tel:+380961111111">
+                            <svg class="smartphone-svg">
+                                <use href="./images/sprite.svg#icon-smartphone"></use>
+                            </svg>
+                            +38 096 111 11 11</a>
+                    </address>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+
+    <main>
+    <section class="portfolio">
+        <div class="container">
+            <h1 class="title" hidden>Портфолио</h1>
+            <ul class="filter-btn-list list">
+                <li class="filter-btn-list-item"><button class="filter-btn" type="button">Все</button></li>
+                <li class="filter-btn-list-item"><button class="filter-btn" type="button">Веб-сайты</button></li>
+                <li class="filter-btn-list-item"><button class="filter-btn" type="button">Приложения</button></li>
+                <li class="filter-btn-list-item"><button class="filter-btn" type="button">Дизайн</button></li>
+                <li class="filter-btn-list-item"><button class="filter-btn" type="button">Маркетинг</button></li>
+            </ul>
+            
+            <ul class="portfolio-cards-list list">
+                <li class="portfolio-cards-link">
+                    <a class="cards-link link" href="">
+                        <div class="portfolio-cards-list-img-wrapper">
+                            <img class="portfolio-cards" src="./images/desktop.jpg" alt="Технокряк на рабочем столе" width="370" height="294">
+                            <p class="overlay overlay-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту
+                                платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+                        </div>
+                        
+                        <div class="cards-link-content">
+                            <h2 class="portfolio-name">Технокряк</h2>
+                            <p class="portfolio-filter">Веб-сайт</p>
+                        </div>                        
+                    </a>
+                </li>
+                <li class="portfolio-cards-link">
+                    <a class="cards-link link" href="">
+                        <div class="portfolio-cards-list-img-wrapper">
+                            <img class="portfolio-cards" src="./images/basketball.jpg" alt="Баскетбольный постер" width="370" height="294">
+                            <p class="overlay overlay-text">В баскетбол играют две команды, каждая из которых состоит из пяти полевых игроков. Цель каждой
+                            команды — забросить мяч в корзину соперника и помешать другой команде забросить его
+                            в свою корзину.</p>
+                        </div>
+
+                            <div class="cards-link-content">
+                            <h2 class="portfolio-name">Постер New Orlean vs Golden Star</h2>
+                            <p class="portfolio-filter">Дизайн</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-cards-link">
+                    <a class="cards-link link" href="">
+                        <div class="portfolio-cards-list-img-wrapper">
+                            <img class="portfolio-cards" src="./images/seafood.jpg" alt="Логотип ресторана" width="370" height="294">
+                            <p class="overlay overlay-text">Элитный рыбный ресторан на берегу реки в самом центре города. Разработанный командой элитный сайт соответствует
+                            элитности заведения.</p>
+                        </div>
+                        
+                        <div class="cards-link-content">
+                            <h2 class="portfolio-name">Ресторан Seafood</h2>
+                            <p class="portfolio-filter">Приложение</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-cards-link">
+                    <a class="cards-link link" href="">
+                        <div class="portfolio-cards-list-img-wrapper">
+                            <img class="portfolio-cards" src="./images/headset.jpg" alt="Наушники" width="370" height="294">
+                            <p class="overlay overlay-text">Блог посвященный обзору гарнитуры премиум сегмента. Сдержанный стиль и удобная навигация заняли свое место.</p>
+                        </div>
+
+                        <div class="cards-link-content">
+                            <h2 class="portfolio-name">Проект Prime</h2>
+                            <p class="portfolio-filter">Маркетинг</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-cards-link">
+                    <a class="cards-link link" href="">
+                        <div class="portfolio-cards-list-img-wrapper">
+                            <img class="portfolio-cards" src="./images/boxes.jpg" alt="Брендовые коробочки" width="370" height="294">
+                            <p class="overlay overlay-text">Торговая площадка, позволяющая выбрать идеальную упаковку для товаров предпринимателей оптовых продаж. Лаконичность и
+                            строгость проекта превыше всего.</p>
+                        </div>
+
+                        <div class="cards-link-content">
+                            <h2 class="portfolio-name">Проект Boxes</h2>
+                            <p class="portfolio-filter">Приложение</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-cards-link">
+                    <a class="cards-link link" href="">
+                        <div class="portfolio-cards-list-img-wrapper">
+                            <img class="portfolio-cards" src="./images/monitor.jpg" alt="Карта на мониторе" width="370" height="294">
+                            <p class="overlay overlay-text">Портал для тех, кто следит за современным дизайном и для тех, кто сам создает дизайн. А также иллюстрации, анимацию и фото. Это
+                            cетевой выставочный зал с системой кураторов, которые отбирают лучшие работы.</p>
+                            </div>
+
+                        <div class="cards-link-content">
+                            <h2 class="portfolio-name">Inspiration has no Borders</h2>
+                            <p class="portfolio-filter">Веб-сайт</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-cards-link">
+                    <a class="cards-link link" href="">
+                        <div class="portfolio-cards-list-img-wrapper">
+                            <img class="portfolio-cards" src="./images/magazine.jpg" alt="Разворот журнала" width="370" height="294">
+                            <p class="overlay overlay-text">Электронный литературный журнал, публикующий произведения наиболее ярких представителей современной литературы. Миссия:
+                            сделать издание доступным каждому пользователю.</p>
+                            </div>
+
+                        <div class="cards-link-content">
+                            <h2 class="portfolio-name">Издание Limited Edition</h2>
+                            <p class="portfolio-filter">Дизайн</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="portfolio-cards-link">
+                    <a class="cards-link link" href="">
+                        <div class="portfolio-cards-list-img-wrapper">
+                            <img class="portfolio-cards" src="./images/label.jpg" alt="Этикетка" width="370" height="294">
+                            <p class="overlay overlay-text">Зачем нужна таргетированная реклама и какими преимуществами обладает таргет. Основы для начинающих и продвинутый курс
+                            для опытных на обучающей платформе LAB.</p>
+                            </div>
+
+                        <div class="cards-link-content">
+                            <h2 class="portfolio-name">Проект LAB</h2>
+                            <p class="portfolio-filter">Маркетинг</p>
+                        </div>
+
+                    </a>
+                </li>
+                <li class="portfolio-cards-link">
+                    <a class="cards-link link" href="">
+                        <div class="portfolio-cards-list-img-wrapper">
+                            <img class="portfolio-cards" src="./images/laptop.jpg" alt="Работа за ноутбуком" width="370" height="294">
+                            <p class="overlay overlay-text">Удобное приложение. Простая интеграция в любой бизнес. Собственнный сервер. Двойная авторизация. Защита по IP. Несколько
+                            уровней доступа.</p>
+                            </div>
+
+                        <div class="cards-link-content">
+                            <h2 class="portfolio-name">Growing Business</h2>
+                            <p class="portfolio-filter">Приложение</p>
+                        </div>
+
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+    </section>
+    </main>
+
+    <footer class="section-footer">
+        <div class="container footer">
+            <div class="footer-address">
+                <a class="logo-light link" href="./index.html" aria-label="логотип Веб-студии"><span
+                        class="accent">Web</span>Studio</a>
+                <address class="address">
+                    <ul class="contact-list list">
+                        <li class="contact-list-item"><a class="contact-list-address link"
+                                href="https://goo.gl/maps/12iDr7vavW5C5g6H9" target="blank">г. Киев, пр-т Леси Украинки,
+                                26</a></li>
+                        <li class="contact-list-item"><a class="contact-list-link link"
+                                href="mailto:info@example.com">info@example.com</a></li>
+                        <li class="contact-list-item"><a class="contact-list-link link" href="tel:+380991111111">+38 099 111
+                                11 11</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+    
+            <div class="footer-sotial">
+                <b class="join">Присоеденяйтесь</b>
+                <ul class="social-list list">
+                    <li class="social-list-item">
+                        <a class="social-list-link link" href="">
+                            <svg class="social-list-svg">
+                                <use href="./images/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a class="social-list-link link" href="">
+                            <svg class="social-list-svg">
+                                <use href="./images/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a class="social-list-link link" href="">
+                            <svg class="social-list-svg">
+                                <use href="./images/sprite.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a class="social-list-link link" href="">
+                            <svg class="social-list-svg">
+                                <use href="./images/sprite.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="subscription">
+                <b class="subscription-title">Подпишитесь на рассылку</b>
+                <form action="#" class="subscription-form">
+                    <input type="email" name="user-email" class="subscription-form-input" placeholder="E-mail" required>
+                    <button type="submit" class="subscription-form-btn">Подписаться
+                        <svg width="15px" height="12px" class="subscription-form-svg">
+                            <use href="./images/sprite.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+    
+        </div>
+    </footer>
+    
+    </body>
+    </html>
