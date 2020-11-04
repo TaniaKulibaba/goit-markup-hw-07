@@ -433,6 +433,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   padding-left: 16px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .subscription-form-btn {
@@ -574,8 +575,10 @@ img {
 
 .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/shapka.jpg");
-  width: 1600px;
+  width: 100%;
   height: 600px;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: auto;
   text-align: center;
@@ -676,7 +679,7 @@ img {
 }
 
 .team {
-  width: 1600px;
+  width: 100%;
   height: 708px;
   background-color: #f5f4fa;
   margin: auto;
@@ -762,7 +765,7 @@ img {
 }
 
 .section-footer {
-  width: 1600px;
+  width: 100%;
   height: 252px;
   margin: auto;
   background-color: #2f303a;

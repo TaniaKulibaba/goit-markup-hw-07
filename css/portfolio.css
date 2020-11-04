@@ -226,6 +226,7 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   padding-left: 16px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .subscription-form-btn {
@@ -484,7 +485,7 @@ img {
 }
 
 .section-footer {
-  width: 1600px;
+  width: 100%;
   height: 252px;
   margin: auto;
   background-color: #2f303a;
